@@ -3,8 +3,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This template, created by `seungyoon`, is filled with dummy text and media files which is free to use. You can customize the template just by modifying data files in the  `/src/static/data/..` 
+## How to run 
+---
+```
+git clone https://github.com/Seungyoonkim66/portfolio_template.git
+
+cd portfolio_template
+
+npm install --legacy-peer-deps
+
+npm start
+```
+Access localhost:3000
+
 
 ## Available Scripts
+---
 
 In the project directory, you can run:
 
