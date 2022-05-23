@@ -24,8 +24,8 @@ const Landing = () => {
     return (
         <StyledBox className='landing'>
             <div className='container' id='landing-container'>
-                <div><Intro bg={backgroundImage[1]}/></div>
-                <div><Vision bg={backgroundImage[0]}/></div>
+                <div><Intro bg={backgroundImage[0]}/></div>
+                <div><Vision bg={backgroundImage[1]}/></div>
                 <div><Strategies bg={backgroundImage[2]}/></div>
                 <div><Solutions bg={backgroundImage[3]}/></div>
                 <Footer />
