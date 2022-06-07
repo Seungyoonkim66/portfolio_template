@@ -3,84 +3,48 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This template, created by `seungyoon`, is filled with dummy text and media files which is free to use. You can customize the template just by modifying data files in the  `/src/static/data/..` 
-## How to run 
----
+
+> 프론트엔드 인턴을 하면서 팀 포트폴리오 사이트를 React로 구현하는 과제를 받아 처음 React를 접해보았습니다. 레고를 조립하듯이 컴포넌트를 만들어서 필요한 곳에 배치하고,  state로 컴포넌트에 동적인 데이터를 효율적으로 사용하고 props를 이용해서 컴포넌트간 데이터를 공유하고 공유한 데이터를 한번에 변경시킬 수 있다는 점이 아주 매력적이라고 생각했습니다. React와 조금 더 놀아보고 싶다는 생각으로 이 재사용 가능한 포트폴리오 템플릿을 React로 구현해보았습니다. 시각적으로 즐거운 사이트를 구현하기 위해 스타일, 애니메이션을 위한 라이브러리를 다양하게 사용하려고 노력했습니다. 처음해 본 React 프로젝트라 부족한 점이 많지만 React의 매력을 느끼는 좋은 기회였습니다 :D 
+## 
+
+# How to use 
 ```
-git clone https://github.com/Seungyoonkim66/portfolio_template.git
+$ git clone https://github.com/Seungyoonkim66/react_portfolio_template.git
 
-cd portfolio_template
+$ cd react_portfolio_template
 
-npm install --legacy-peer-deps
+$ npm install --legacy-peer-deps
 
-npm start
+$ npm start
+
+// localhost:3000 접속
 ```
-Access localhost:3000
 
 
-## Available Scripts
----
+##
 
-In the project directory, you can run:
+# Used Tech.
+* `React`
+* `Material-UI`
+* `framer-motion`, `react-useanimations`
 
-### `npm start`
+## 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Site map
+```
+Home 
+ |- Introduction
+ |- Four values to emphasize
+ |- Stratgies
+ |- Item Categories
+            |-------- Item1 Sub Category
+            |          |-----item detail
+            |          |-----item detail
+            |          |-----   .... 
+            |-------- Item2 Sub Category
+            |--------  ... 
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 자세한 사용 설명은 [링크](https://www.notion.so/React-74a6485b01ad4235ae24aff6f3de0ff9)를 참고해주세요.
